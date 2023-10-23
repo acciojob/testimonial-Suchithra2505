@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+.container{
+	height:300px;
+	width:300px;
+	display:flex;
+	justify-content:left;
+	display-direction:column;
+	padding-left:20px;
+	padding-right:60px;
+	background-color:#f5f5f5;
+}
+.box1{
+	height:30px;
+	width:300px;
+	padding-left:20px;
+	display:flex;
+	background-color:white;
+	border-style:groove;
+	position:relative;
+	
+}
+.box2{
+	height:30px;
+	width:300px;
+	padding-left:20px;
+	background-color:white;
+	border-style:groove;
+	display:flex;
+	position:relative;
+}
+.t1{
+	color:black;
+	font-size:10px;
+	padding-left:0px;
+	padding-top:10px;
+	
+}
+.box1>.a1{
+	color:black;
+	font-size:10px;
+	position:absolute;
+    bottom:0;
+    right:0;
+	text-align:right;
+	font-style:italic;
+}
+.t2{
+	color:black;
+	font-size:10px;
+	padding-left:0px;
+	padding-top:10px;
+	
+}
+.box2>.a2{
+	color:black;
+	font-size:10px;
+	position:absolute;
+    bottom:0;
+    right:0;
+	text-align:right;
+	font-style:italic;
+}
